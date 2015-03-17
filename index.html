@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Aaron's Résumé</title>
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <!-- css -->
     <link rel="stylesheet" href="assets/libs/skeleton-css/css/normalize.css">
     <link rel="stylesheet" href="assets/libs/skeleton-css/css/skeleton.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
-    <h1 class="name">Aaron Zemetres</h1>
+    <div class="container"> 
     <header class="contact-me">
-        <ul class="cm-links">
-            <li>github.com/azemetre</li>
-            <li>azemetre@mail.usf.edu</li>
-        </ul>
-    </header> <!-- header -->    
-
-    <div class="container">
-
+        <h1 class="name"><u>Aaron Zemetres</u></h1>
+        
         <div class="row">
             <div class="four columns">
-                <section class="education">
-                <h2>Education</h2>
+                <div class="cm-links"><a href="#">github.com/azemetre</a></div>
+            </div>
+            <div class="four columns">
+                <div class="cm-links"><a href="#">linkedin.com/aaronzemetres</a></div>
+            </div>
+            <div class="four columns">
+                <div class="cm-links"><a href="#">azemetre.me</a></div>
+            </div>
+        </div>
+    </header> <!-- header -->    
+
+        <div class="row">
+            <div class="three columns">
+            <section class="education">
+                <h2 id="education-h"><u>Education</u></h2>
                 <p class="usf">University of South Florida, College of Arts and Sciences;</p>
                 <p class="department">Department of Mathematics &amp; Statistics</p>
                 <p class="degree">BA in Mathematics,</p>
@@ -30,35 +39,35 @@
                 <p class="department">Department of Psychology</p>
                 <p class="degree">BA in Psychology,</p>
                 <p class="year">Spring 2013</p>
-            </section>
+            </section>  <!-- education -->
             </div>
-            <div class="eight columns">
+            <div class="nine columns">
                 <section class="skills">
-                    <h2 class="work-title">Key Skills</h2>
-                    <p class="software ks">Software &amp; Operating Systems:</p>
-                    <aside class="soft-list ks">
+                    <h2 id="skills-h"><u>Key Skills</u></h2>
+                    <p class="software ks-title">Software &amp; Operating Systems:</p>
+                    <p class="soft-list ks-list">
                         Visual Studio, Sublime Text 3, Git, PyCharm, Vim, Atom, WebStorm, Brackets, Terminal/Command Line, iTerm2, Adobe Photoshop, Vagrant, Virtual Box, SSH, MS Office Suite, GM 1.2, Linux (Ubuntu, CentOS), OS X (10.10), Windows (XP, 7, 8.1)
-                    </aside>
-                    <p class="techniques ks">Frameworks &amp; Techniques:</p>
-                    <aside class="tech-list ks">
+                    </p>
+                    <p class="techniques ks-title">Frameworks &amp; Techniques:</p>
+                    <p class="tech-list ks-list">
                         Object-Oriented Programming, Test-Drive Design, Regular Expressions, Unified Modeling Language, Bootstrap, Skeleton
-                    </aside>
-                    <p class="languages ks">Programming Languages:</p>
-                    <aside class="lang-list ks">
+                    </p>
+                    <p class="languages ks-title">Programming Languages:</p>
+                    <p class="lang-list ks-list">
                         Python (Django, Flask), JavaScript (NodeJS, jQuery, AngularJS, and AJAX), HTML5, CSS3, C++, SQL, Bash, MongoDB, Wolfram Mathematica, GML
-                    </aside>
-                    <p class="maths ks">Mathematics &amp; Analysis:</p>
-                    <aside class="maths-list ks">
+                    </p>
+                    <p class="maths ks-title">Mathematics &amp; Analysis:</p>
+                    <p class="maths-list ks-list">
                         Linear Algebra, Graph Theory, Abstract Algebra, Bayesian Inference, Partial Differential Equations, and Optimization
-                    </aside>
-                </section>
+                    </p>
+                </section>  <!-- skills -->
             </div>
         </div>
 
         <div class="row">
-            <div class="four columns">
+            <div class="three columns">
                 <section class="coursework">
-                <h2>Relevant Coursework</h2>
+                    <h2 id="coursework-h"><u>Relevant Coursework</u></h2>
                     <ul class="courses">
                         <li>Economic Geography</li>
                         <li>Computer Networks</li>
@@ -72,12 +81,12 @@
                         <li>Information Graphics</li>
                         <li>Typography</li>
                     </ul>
-                </section>
+                </section>  <!-- coursework -->
             </div>
 
-            <div class="eight columns">
+            <div class="nine columns">
                 <section class="work">
-                    <h2 class="work-title">Professional Work</h2>
+                    <h2 id="work-h"><u>Professional Work</u></h2>
                     <p class="job">> Orange-Ups<br><span class="job-location">Tampa, FL <</span></p>
                     <aside class="job-description job-title">Web Developer<br><span class="job-year">April 2013 - Current</span></aside>
                     <p class="job">> Kablelink<br><span class="job-location">Tampa, FL <</span></p>
@@ -86,14 +95,14 @@
                     <aside class="job-description job-title">Database Architect<br><span class="job-year">2008 - 2009</span></aside>
                     <p class="job">> VH-Video<br><span class="job-location">Tampa, FL <</span></p>
                     <aside class="job-description job-title">Camera Operator &amp; Editor<br><span class="job-year">2006 - 2007</span></aside>
-                </section>
+                </section>  <!-- professional work -->
                 <section class="projects">
-                    <h2 class="work-title">Relevant Project and Research Experience</h2>
+                    <h2 id="projects-h"><u>Project and Research Experience</u></h2>
                     <ul class="project-list">
-                        <li class="project-description"><span class="project-title">Facial Recognition: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aut dolorem, dolores iste maiores impedit, commodi aliquid quaerat tempore harum accusamus pariatur at ad magni debitis quo veritatis rerum excepturi, minus inventore consectetur sed ab veniam. Dolorum sit ea non delectus doloribus itaque velit nostrum deserunt possimus! Alias culpa unde, facilis pariatur vero deserunt eligendi asperiores voluptatem est. Necessitatibus quos distinctio placeat provident, ipsam. Incidunt nemo velit odio dicta ipsum iusto numquam ullam odit a recusandae maiores, quam, enim suscipit.</li>
-                        <li class="project-description"><span class="project-title">Gender Perception: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestias repudiandae magni neque, soluta omnis iure enim inventore obcaecati placeat sed pariatur officia accusantium nisi iusto nemo vero tenetur ipsam.</li>
+                        <li class="project-description"><span class="project-title">Facial Recognition: </span>Used Mathematica to create a program that trains an algorithm to recognize a directory of faces into a series of eigenvectors and using these eigenvectors to classify new faces from the previous sample. This was done by making a composite face and transferring it into a covariance matrix to compare sample faces to. The eigenvales of the covariance matrix were compared to the eigenvalues of the sample images as a means of facial recognition.</li>
+                        <li class="project-description"><span class="project-title">Gender Perception: </span>Conduexted and gathered survey results, analyzed data using P-values, Poisson and Gaussian distributions and SPSS software.</li>
                     </ul>
-                </section>
+                </section>  <!-- projects -->
             </div>
         </div>
 
@@ -104,6 +113,6 @@
              <li>Able &amp; Willing to Relocate or Travel</li>
              <li>Available for Full-Time &amp; Contract</li>
          </ul>
-    </footer>
+    </footer>   <!-- footer -->
 </body>
 </html>

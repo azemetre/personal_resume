@@ -21,6 +21,7 @@ header .cm-links a {
     line-height: 1.1;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.5s ease-in-out;
 }
 header .cm-links a:hover {
     color: #ffcc66;
@@ -82,7 +83,7 @@ section.work h2#work-h {
     font-weight: normal;
     line-height: 1.1;
 }
-section.work p.job, aside.job-description {
+section.work table {
     color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;

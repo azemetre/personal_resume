@@ -1,17 +1,19 @@
-/****************** Typography ******************/
-
+/****************** Typography AND COLOR ******************/
+body {
+    background: #fefad7;
+}
 /****HEADER****/
 header h1.name {
-    color: #e8ac1c;
+    color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 50px;
     font-weight: normal;
     line-height: 1.1;
     text-align: center;
-    text-decoration: underline;
 }
-header .cm-links {
-    color: #6dbdb3;
+header .cm-links a {
+    color: #ff9900;
+    background: #fff4a3;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -20,82 +22,89 @@ header .cm-links {
     text-align: center;
     text-transform: uppercase;
 }
+header .cm-links a:hover {
+    color: #ffcc66;
+}
 /****EDUCATION****/
 section.education h2#education-h {
-    color: #e8ac1c;
+    color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
 section.education p {
-    color: #0f423b;
+    color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     line-height: 40px;
 }
 /****KEY SKILLS****/
 section.skills h2#skills-h {
-    color: #e8ac1c;
+    color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
 section.skills p.ks-title {
-    color: #e8ac1c;
+    color: #4c4a37;
     font-family: 'Nixie One', cursive;
     font-size: 18px;
     font-weight: normal;
     line-height: 1.1;
 }
 section.skills p.ks-list {
+    color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 /*****COURSEWORK*****/
 section.coursework h2#coursework-h {
-    color: #e8ac1c;
+    color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
 section.coursework ul.courses {
+    color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 /*****WORK*****/
 section.work h2#work-h {
-    color: #e8ac1c;
+    color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
 section.work p.job, aside.job-description {
+    color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 /*****RESEARCH*****/
 section.projects h2#projects-h {
-    color: #e8ac1c;
+    color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
 section.projects ul.project-list {
+    color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 /*****FOOTER*****/
 footer {
-    color: #6dbdb3;
+    color: #ffcc66;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -108,12 +117,7 @@ footer {
 
 /*****HEADER*****/
 header h1.name {
-    color: #e8ac1c;
-    font-family: 'Nixie One', cursive;
-    font-size: 50px;
-    font-weight: normal;
-    line-height: 1.1;
-    text-align: center;
+
 }
 header .cm-links {
     
@@ -130,10 +134,7 @@ header .cm-links {
 
 /*****FOOTER*****/
 
-/* Navigation 
-
 /* UI-elements */
 
-/* Forms */
 
 /* Media Queries */ 

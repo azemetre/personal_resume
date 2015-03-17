@@ -1,10 +1,136 @@
-/* Reset */
+/****************** Typography ******************/
 
-/* Typography */
+/****HEADER****/
+header h1.name {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: underline;
+}
+header .cm-links {
+    color: #6dbdb3;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+}
+/****EDUCATION****/
+section.education h2#education-h {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+section.education p {
+    color: #0f423b;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+/****KEY SKILLS****/
+section.skills h2#skills-h {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+section.skills p.ks-title {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+section.skills p.ks-list {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****COURSEWORK*****/
+section.coursework h2#coursework-h {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+section.coursework ul.courses {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****WORK*****/
+section.work h2#work-h {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+section.work p.job, aside.job-description {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****RESEARCH*****/
+section.projects h2#projects-h {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+section.projects ul.project-list {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****FOOTER*****/
+footer {
+    color: #6dbdb3;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+}
+/****************** Layout ******************/
 
-/* Layout */
+/*****HEADER*****/
+header h1.name {
+    color: #e8ac1c;
+    font-family: 'Nixie One', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: center;
+}
+header .cm-links {
+    
+}
+/*****EDUCATION*****/
 
-/* Navigation */
+/*****KEY SKILLS*****/
+
+/*****COURSEWORK*****/
+
+/*****WORK*****/
+
+/*****RESEARCH*****/
+
+/*****FOOTER*****/
+
+/* Navigation 
 
 /* UI-elements */
 

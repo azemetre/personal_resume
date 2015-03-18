@@ -1,9 +1,9 @@
-/****************** Typography AND COLOR ******************/
+/****************** Typography and Color ******************/
 body {
     background: #fefad7;
 }
 /****HEADER****/
-header h1.name {
+h1.name {
     color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 50px;
@@ -11,7 +11,7 @@ header h1.name {
     line-height: 1.1;
     text-align: center;
 }
-header .cm-links a {
+.cm-links a {
     color: #ff9900;
     background: #fff4a3;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -21,92 +21,91 @@ header .cm-links a {
     line-height: 1.1;
     text-align: center;
     text-transform: uppercase;
-    transition: 0.5s ease-in-out;
-}
-header .cm-links a:hover {
-    color: #ffcc66;
 }
 /****EDUCATION****/
-section.education h2#education-h {
+h2#education-h {
     color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
-section.education p {
+p.education-listing {
     color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     line-height: 40px;
 }
 /****KEY SKILLS****/
-section.skills h2#skills-h {
+h2#skills-h {
     color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
-section.skills p.ks-title {
+td.skills-title {
     color: #4c4a37;
     font-family: 'Nixie One', cursive;
     font-size: 18px;
     font-weight: normal;
     line-height: 1.1;
 }
-section.skills p.ks-list {
+td.skills-list {
     color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    text-align: left;
 }
 /*****COURSEWORK*****/
-section.coursework h2#coursework-h {
+h2#coursework-h {
     color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
-section.coursework ul.courses {
+ul.courses {
     color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 /*****WORK*****/
-section.work h2#work-h {
+h2#work-h {
     color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
-section.work table {
+table#work-table {
     color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 /*****RESEARCH*****/
-section.projects h2#projects-h {
+h2#projects-h {
     color: #7c795d;
     font-family: 'Nixie One', cursive;
     font-size: 32px;
     font-weight: normal;
     line-height: 1.1;
 }
-section.projects ul.project-list {
+ul.project-list {
     color: #4c4a37;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    text-align: left;
 }
 /*****FOOTER*****/
-footer {
-    color: #ffcc66;
-    font-family: 'Open Sans Condensed', sans-serif;
+.footer-box {
+    background: #fff4a3;
+    color: #4c4a37;
+    font-family: 'Nixie One', cursive;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -114,28 +113,66 @@ footer {
     text-align: center;
     text-transform: uppercase;
 }
-/****************** Layout ******************/
-
-/*****HEADER*****/
-header h1.name {
-
-}
-header .cm-links {
-    
-}
+/****************** Layout  ******************/
 /*****EDUCATION*****/
 
 /*****KEY SKILLS*****/
-
+td.skills-row {
+    border-collapse: collapse;
+    border-bottom: 0;
+}
 /*****COURSEWORK*****/
-
+ul.courses li {
+    list-style-type: none;
+}
 /*****WORK*****/
-
+table tbody td.job-title {
+    position: relative;
+    left: 10px;
+}
 /*****RESEARCH*****/
 
 /*****FOOTER*****/
+.footer-box {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+/****************** UI/UX  ******************/
+/*****HEADER*****/
+.cm-links a {
+    transition: 0.5s ease-in-out;
+}
+.cm-links a:hover {
+    color: #ffcc66;
+}
+/*****WORK*****/
+table tbody tr.job-description {
+    transition: 0.5s ease-in-out;
+}
+table tbody tr.job-description:hover {
+    background: #fff4a3;
+}
 
-/* UI-elements */
-
-
-/* Media Queries */ 
+/****************** Media Queries ******************/
+/* Larger than tablet */
+@media (min-width: 750px) {
+    span.education-year {
+        position: relative;
+        left: 20px;
+    }
+}
+/* Smaller than a phablet */
+@media (max-width: 550px) {
+    header.contact-me, section.education, section.skills, section.coursework, section.work, h2#projects-h {
+        text-align: center;
+    }
+    table#skills-table td.skills-list {
+        text-align: left;
+    }
+    table#work-table {
+        margin: 0px auto;
+    }
+    ul.project-list {
+        text-align: left;
+    }
+}

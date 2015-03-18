@@ -32,30 +32,34 @@
             <div class="four columns">
             <section class="education">
                 <h2 id="education-h"><u>Education</u></h2>
-                <p class="school" style="font-style:italic;">University of South Florida,<br>College of Arts and Sciences</p>
-                <p class="degree first-d"><span style="font-style:italic;">Department of Mathematics &amp; Statistics</span><br><span style="font-weight:bold">BA in Mathematics,</span><br>Spring 2013</p>
-                <p class="degree second-d"><span style="font-style:italic;">Department of Psychology</span><br><span style="font-weight:bold">BA in Psychology,</span><br>Spring 2013</p>
+                <p class="education-listing school" style="font-style:italic;">University of South Florida,<br>College of Arts and Sciences</p>
+                <p class="education-listing degree first-d"><span style="font-style:italic;">Department of Mathematics &amp; Statistics</span><br><span style="font-weight:bold">BA in Mathematics,</span><br><span class="education-year">Spring 2013</span></p>
+                <p class="education-listing degree second-d"><span style="font-style:italic;">Department of Psychology</span><br><span style="font-weight:bold">BA in Psychology,</span><br><span class="education-year">Spring 2013</span></p>
             </section>  <!-- education -->
             </div>
             <div class="eight columns">
                 <section class="skills">
                     <h2 id="skills-h"><u>Key Skills</u></h2>
-                    <p class="software ks-title">Software &amp; Operating Systems:</p>
-                    <p class="soft-list ks-list">
-                        Visual Studio, Sublime Text 3, Git, PyCharm, Vim, Atom, WebStorm, Brackets, Terminal/Command Line, iTerm2, Adobe Photoshop, Vagrant, Virtual Box, SSH, MS Office Suite, GM 1.2, Linux (Ubuntu, CentOS), OS X (10.10), Windows (XP, 7, 8.1)
-                    </p>
-                    <p class="techniques ks-title">Frameworks &amp; Techniques:</p>
-                    <p class="tech-list ks-list">
-                        Object-Oriented Programming, Test-Drive Design, Regular Expressions, Unified Modeling Language, Bootstrap, Skeleton
-                    </p>
-                    <p class="languages ks-title">Programming Languages:</p>
-                    <p class="lang-list ks-list">
-                        Python (Django, Flask), JavaScript (NodeJS, jQuery, AngularJS, and AJAX), HTML5, CSS3, C++, SQL, Bash, MongoDB, Wolfram Mathematica, GML
-                    </p>
-                    <p class="maths ks-title">Mathematics &amp; Analysis:</p>
-                    <p class="maths-list ks-list">
-                        Linear Algebra, Graph Theory, Abstract Algebra, Bayesian Inference, Partial Differential Equations, and Optimization
-                    </p>
+                    <table>
+                        <tbody>
+                            <tr class="software">
+                                <td class="skills-row skills-title">Software &amp; Operating Systems:</td>
+                                <td class="skills-row skills-list">Visual Studio, Sublime Text 3, Git, Pycharm, Vim, Atom, Webstorm, Brackets, Terminal/Command Line, iTerm2, IntelliJ IDEA, Adobe Photoshop, Vagrant, Virtual Box, SSH, GMS Office Suite, GM 1.2, Linux (Ubuntu, CentOS), OS X (10.10), Windows (XP, 7, 8.1)</td>
+                            </tr>
+                            <tr class="techniques">
+                                <td class="skills-row skills-title">Frameworks and Techniques:</td>
+                                <td class="skills-row skills-list">Object-Oriented Programming, Test-Drive Design, Regular Expressions, Unified Modeling Language, Bootstrap, Skeleton, Wordpress</td>
+                            </tr>
+                            <tr class="languages">
+                                <td class="skills-row skills-title">Programming Languages:</td>
+                                <td class="skills-row skills-list">Python (Django &amp; Flask), JavaScript (Node.JS, jQuery, AngularJS, and AJAX), HTML5, CSS3, C++, SQL, MongoDB, Bash, Wolfram Mathematica, GML</td>
+                            </tr>
+                            <tr class="mathematics">
+                                <td class="skills-row skills-title">Mathematics and Analysis:</td>
+                                <td class="skills-row skills-list">Linear Algebra, Graph Theory, Abstract Algebra, Bayesian Inference, Partial Differential Equations, and Optimization</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </section>  <!-- skills -->
             </div>
         </div>
@@ -83,22 +87,22 @@
             <div class="eight columns">
                 <section class="work">
                     <h2 id="work-h"><u>Professional Work</u></h2>
-                    <table>
+                    <table id="work-table">
                         <tbody>
-                            <tr class="job-title">
-                                <td>> Orange-Ups<br>Tampa, FL <</td>
+                            <tr class="job-description">
+                                <td class="job-title">Orange-Ups<br>Tampa, FL</td>
                                 <td>Web Developer<br>April 2013 - Current</td>
                             </tr>
-                            <tr class="job-title">
-                                <td>> Kablelink<br>Tampa, FL<</td>
+                            <tr class="job-description">
+                                <td class="job-title">Kablelink<br>Tampa, FL</td>
                                 <td>Inhouse Technical Support<br>May 2014 - September 2014</td>
                             </tr>
-                            <tr class="job-title">
-                                <td>> HC Bar Association<br>Tampa, FL<</td>
+                            <tr class="job-description">
+                                <td class="job-title">HC Bar Association<br>Tampa, FL</td>
                                 <td>Database Architect<br>2008 - 2009</td>
                             </tr>
-                            <tr class="job-title">
-                                <td>> VH-Video<br>Tampa, FL<</td>
+                            <tr class="job-description">
+                                <td class="job-title">VH-Video<br>Tampa, FL</td>
                                 <td>Camera Operator &amp; Editor<br>2006 - 2007</td>
                             </tr>
                         </tbody>
@@ -117,10 +121,14 @@
     </div> <!-- main container -->
     
     <footer>
-         <ul class="ft-notes">
-             <li>Able &amp; Willing to Relocate or Travel</li>
-             <li>Available for Full-Time &amp; Contract</li>
-         </ul>
+        <div class="row">
+            <div class="six columns">
+                <div class="footer-box"><p>Able &amp; Willing to Relocate or Travel</p></div>
+            </div>
+            <div class="six columns">
+                <div class="footer-box"><p>Available for Full-Time &amp; Contract</p></div>
+            </div>
+        </div>
     </footer>   <!-- footer -->
 </body>
 </html>

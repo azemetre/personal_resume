@@ -27,12 +27,6 @@ a.cm-links {
     text-align: center;
     text-transform: uppercase;
 }
-.box-link {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-}
 /****EDUCATION****/
 h2#education-h {
     color: #7c795d;
@@ -125,7 +119,13 @@ ul.project-list {
     text-transform: uppercase;
 }
 /****************** Layout  ******************/
-
+/****HEADER****/
+.box-text {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+}
 /*****KEY SKILLS*****/
 td.skills-title {
     position: relative;

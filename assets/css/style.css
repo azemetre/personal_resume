@@ -11,9 +11,14 @@ h1.name {
     line-height: 1.1;
     text-align: center;
 }
+.header-box {
+    background: #fff4a3;
+    height: 30px;
+    position: relative;
+    margin: 5px 5px 5px 5px;
+}
 a.cm-links {
     color: #ff9900;
-    background: #fff4a3;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -21,6 +26,12 @@ a.cm-links {
     line-height: 1.1;
     text-align: center;
     text-transform: uppercase;
+}
+.box-link {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
 }
 /****EDUCATION****/
 h2#education-h {
@@ -114,13 +125,7 @@ ul.project-list {
     text-transform: uppercase;
 }
 /****************** Layout  ******************/
-/****HEADER****/
-a.cm-links .box-link {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(40%);
-            transform: translateY(40%);
-}
+
 /*****KEY SKILLS*****/
 td.skills-title {
     position: relative;
@@ -185,12 +190,6 @@ li.project-description:hover {
 @media (orientation: portrait) {
     header.contact-me, section.education, section.skills, section.coursework, section.work, h2#projects-h {
         text-align: center;
-    }
-    .header-box {
-        background: #fff4a3;
-        height: 30px;
-        position: relative;
-        margin: 5px 0 5px 0;
     }
     table#skills-table td.skills-list {
         text-align: left;

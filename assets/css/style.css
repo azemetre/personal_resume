@@ -1,3 +1,4 @@
+@import url('http://fonts.googleapis.com/css?family=Trocchi|Source+Sans+Pro');
 /****************** Typography and Color ******************/
 body {
     background: #fefad7;
@@ -121,12 +122,13 @@ ul.project-list {
 /****************** Layout  ******************/
 /****HEADER****/
 .box-text {
-    position: relative;
+    margin-top: 7px;
+/*    position: relative;
     top: 50%;
     -webkit-transform: translateY(50%);
-            transform: translateY(50%);
+            transform: translateY(50%);*/
 }
-/*****KEY SKILLS*****/
+*//*****KEY SKILLS****
 td.skills-title {
     position: relative;
     left: 10px;

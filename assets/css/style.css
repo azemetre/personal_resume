@@ -123,12 +123,8 @@ ul.project-list {
 /****HEADER****/
 .box-text {
     margin-top: 7px;
-/*    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);*/
 }
-*//*****KEY SKILLS****
+/****KEY SKILLS****/
 td.skills-title {
     position: relative;
     left: 10px;
@@ -137,7 +133,7 @@ td.skills-row {
     border-collapse: collapse;
     border-bottom: 0;
 }
-/*****COURSEWORK*****/
+/*****COURSEWORK****/
 ul.courses li {
     list-style-type: none;
 }

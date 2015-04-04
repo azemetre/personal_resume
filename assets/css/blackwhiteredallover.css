@@ -1,0 +1,136 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed|Open+Sans');
+/****************** Typography and Color ******************/
+::selection {
+    background-color: #d3d3d3;
+    color: #ffffff;
+}
+body {
+    background: #fdfdfd;
+}
+/****HEADER****/
+h1.name {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-box {
+    background: #111;
+    height: 30px;
+    position: relative;
+    margin: -20px 5px 5px 5px;
+}
+a.cm-links {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/****EDUCATION****/
+h2#education-h {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+p.education-listing {
+    color: #111;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+/****KEY SKILLS****/
+h2#skills-h {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+td.skills-title {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+td.skills-list {
+    color: #111;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+/*****COURSEWORK*****/
+h2#coursework-h {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+ul.courses {
+    color: #111;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****WORK*****/
+h2#work-h {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+table#work-table {
+    color: #111;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****RESEARCH*****/
+h2#projects-h {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+ul.project-list {
+    color: #111;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+/*****FOOTER*****/
+.footer-box {
+    background: #990000;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+}
+/****************** UI/UX  ******************/
+/*****HEADER*****/
+.header-box {
+    transition: all 0.2s ease-in-out;
+}
+.header-box:hover {
+    background-color: #990000;
+    text-decoration: underline;
+}

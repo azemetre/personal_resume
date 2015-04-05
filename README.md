@@ -5,10 +5,11 @@ A Résumé Template for All
 
 Future Goals
 -----------------------------
-⋅⋅*~~Create a template for users~~
-⋅⋅*~~Create different stylesheets for users~~
-⋅⋅*Rewrite README.md in a more readable format
-⋅⋅*Include basic résumé advice
+⋅⋅* Rewrite README.md in a more readable format
+⋅⋅* Include basic résumé advice
+~~Create a template for users~~
+~~Create different stylesheets for users~~
+
 
 
 Misc

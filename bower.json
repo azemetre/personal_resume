@@ -1,0 +1,27 @@
+{
+  "name": "aaronzemetres.me - A Resume",
+  "version": "0.0.0",
+  "authors": [
+    "Aaron Zemetres"
+  ],
+  "description": "A resume template for all",
+  "keywords": [
+    "resume",
+    "job",
+    "template"
+  ],
+  "license": "MIT",
+  "homepage": "aaronzemetres.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "skeleton-css": "~2.0.4",
+    "jquery": "~2.1.3"
+  }
+}

@@ -1,0 +1,159 @@
+@import url('format.css');
+@import url('../libs/skeleton-css/css/normalize.css');
+@import url('../libs/skeleton-css/css/skeleton.css');
+@import url('http://fonts.googleapis.com/css?family=Trocchi|Source+Sans+Pro');
+/****************** Typography and Color ******************/
+body {
+    background: #e9f8ff;
+}
+/****HEADER****/
+h1.name {
+    color: #003366;
+    font-family: 'Crimson Text', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: -3px;
+}
+.header-box {
+    background: #ffffff;
+    height: 30px;
+    position: relative;
+    margin: 5px 5px 10px 5px;
+    border-radius: 15px;
+}
+a.cm-links {
+    color: #00aaff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/****EDUCATION****/
+h2#education-h {
+    color: #003366;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+p.education-listing {
+    color: #006699;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+/****KEY SKILLS****/
+h2#skills-h {
+    color: #003366;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+td.skills-title {
+    color: #006699;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+td.skills-list {
+    color: #006699;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+/*****COURSEWORK*****/
+h2#coursework-h {
+    color: #003366;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+ul.courses {
+    color: #006699;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****WORK*****/
+h2#work-h {
+    color: #003366;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+table#work-table {
+    color: #006699;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*****RESEARCH*****/
+h2#projects-h {
+    color: #003366;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+ul.project-list {
+    color: #006699;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+/*****FOOTER*****/
+.footer-box {
+    background: #ffffff;
+    color: #006699;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/****************** UI/UX  ******************/
+/*****HEADER*****/
+a.cm-links {
+    transition: 0.5s ease-in-out;
+}
+a.cm-links:hover, a.cm-links:focus {
+    color: #006699;
+    text-decoration: underline;
+    font-size: 18px;
+    outline: none;
+}
+/*****KEY SKILLS*****/
+table#skill-table tbody tr {
+    transition: 0.5s ease-in-out;
+}
+table#skill-table tbody tr:hover {
+    background: #ffffff;
+}
+/*****WORK*****/
+table#work-table tbody tr.job-description {
+    transition: 0.5s ease-in-out;
+}
+table#work-table tbody tr.job-description:hover {
+    background: #ffffff;
+}
+/*****RESEARCH*****/
+li.project-description {
+    transition: 0.5s ease-in-out;
+}
+li.project-description:hover {
+    background: #ffffff;
+}
